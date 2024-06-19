@@ -1,6 +1,6 @@
 ---
 home: true
-layout: Bloghome
+layout: BlogHome
 icon: home
 title: Blog Ho me
 heroImage: https://theme-hope-assets.vuejs.press/logo.svg
