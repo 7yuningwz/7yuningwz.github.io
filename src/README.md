@@ -1,10 +1,10 @@
 ---
 home: true
-layout: BlogHome
+layout: Bloghome
 icon: home
-title: Blog Home
+title: Blog Ho me
 heroImage: https://theme-hope-assets.vuejs.press/logo.svg
-heroText: The name of your blog
+heroText: Welcome to 7&ning's 
 tagline: You can put your slogan here
 heroFullScreen: true
 projects:
