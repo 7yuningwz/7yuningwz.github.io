@@ -13,7 +13,7 @@ export default defineUserConfig({
     "/zh/": {
       lang: "zh-CN",
       title: "SevenNing",
-      description: "vuepress-theme-hope 的博客演示",
+      description: "一个你可以了解我的地方",
     },
   },
 
