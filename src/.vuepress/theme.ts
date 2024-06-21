@@ -118,6 +118,18 @@ export default hopeTheme({
   // hotReload: true,
 
   plugins: {
+    search:{
+      macSuggestions: 32,
+      hotKeys: {},
+      locals: {
+        "/":{
+          placeholder:"Search",
+        },
+        "/zh/":{
+          placeholder:"搜索",
+        }
+      }
+    },
     blog: true,
 
     // Install @waline/client before enabling it
