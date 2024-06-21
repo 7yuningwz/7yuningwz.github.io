@@ -6,13 +6,13 @@ export default hopeTheme({
   hostname: "www.sevenning.com",
 
   author: {
-    name: "Mr.Hope",
-    url: "https://mister-hope.com",
+    name: "Ning",
+    url: "www.sevenning.com",
   },
 
   iconAssets: "fontawesome-with-brands",
 
-  logo: "https://theme-hope-assets.vuejs.press/logo.svg",
+  logo: "/image (1).jpg",
 
   repo: "vuepress-theme-hope/vuepress-theme-hope",
 
