@@ -8,7 +8,7 @@ export default defineUserConfig({
     "/": {
       lang: "en-US",
       title: "SevenNing",
-      description: "A blog demo for vuepress-theme-hope",
+      description: "The best place where you can know me",
     },
     "/zh/": {
       lang: "zh-CN",
