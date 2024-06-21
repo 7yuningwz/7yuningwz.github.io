@@ -14,7 +14,7 @@ export default hopeTheme({
 
   logo: "/image (1).jpg",
 
-  repo: "vuepress-theme-hope/vuepress-theme-hope",
+  repo: "7yuningwz.github.io",
 
   docsDir: "src",
 
