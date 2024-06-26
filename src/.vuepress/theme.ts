@@ -171,6 +171,21 @@ export default hopeTheme({
 
     // These features are enabled for demo, only preserve features you need here
     mdEnhance: {
+      tabs: true,
+      chart: true,
+      echarts: true,
+      mermaid: true,
+      sup: true,
+      katex: true,
+      mathjax: false,
+      vuePlayground: false,
+      tasklist: true,
+      revealJs: false,
+      footnote: true,
+      hint: true,
+      flowchart: true,
+      gfm: true,
+    
       align: true,
       attrs: true,
       codetabs: true,
