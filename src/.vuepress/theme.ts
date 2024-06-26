@@ -185,7 +185,6 @@ export default hopeTheme({
       hint: true,
       flowchart: true,
       gfm: true,
-    
       align: true,
       attrs: true,
       codetabs: true,
