@@ -119,8 +119,8 @@ export default hopeTheme({
 
   plugins: {
     search:{
-      macSuggestions: 32,
-      hotKeys: {},
+      maxSuggestions: 32,
+      hotKeys: [],
       locales: {
         "/":{
           placeholder:"Search",
@@ -211,9 +211,6 @@ export default hopeTheme({
         },
       ],
       sub: true,
-      sup: true,
-      tabs: true,
-      tasklist: true,
       vPre: true,
 
       // install chart.js before enabling it
