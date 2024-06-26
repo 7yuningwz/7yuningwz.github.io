@@ -14,7 +14,7 @@ export default hopeTheme({
 
   logo: "/image (1).jpg",
 
-  repo: "7yuningwz.github.io",
+  repo: "7yuningwz/7yuningwz.github.io",
 
   docsDir: "src",
 
