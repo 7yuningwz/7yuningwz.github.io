@@ -5,27 +5,30 @@ export const enNavbar = navbar([
   {
    text: "Blogs",
    icon: "",
-   link:"#"
+   children: [
+    {
+      text: "Memories",
+      icon: "",
+      link: "#"
+    },
+   ],
   },
-  {
-    text: "Memories",
-    icon: "",
-    link:"#"
-   },
    {
     text: "Communities",
     icon: "",
-    link:"#"
-   },
-   {
-    text: "Friends",
-    icon: "",
-    link:"#"
-   },
-   {
-    text: "Comments",
-    icon: "",
-    link:"#"
+    children: [
+      {
+        text: "Friends",
+        icon: "",
+        children: [
+          {
+            text: "Comments",
+            icon: "",
+            link: "#"
+          },
+         ]
+      },
+     ],
    },
    {
     text: "Products",
@@ -33,14 +36,15 @@ export const enNavbar = navbar([
     link:"#"
    },
    {
-    text: "Tools",
-    icon: "",
-    link:"#"
-   },
-   {
     text: "Help",
     icon: "",
-    link:"#"
+    children: [
+      {
+        text: "Tools",
+        icon: "",
+        link: "#"
+      },
+     ],
    },
   
 ]);
