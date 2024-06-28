@@ -9,8 +9,10 @@ export default hopeTheme({
     name: "Ning",
     url: "www.sevenning.com",
   },
-
-  iconAssets: "fontawesome-with-brands",
+  iconPrefix: "iconfont icon-",
+  iconAssets: [
+   "//at.alicdn.com/t/c/font_4602275_uwotmdnglwe.csss",
+  ],
 
   logo: "/image (1).jpg",
 
