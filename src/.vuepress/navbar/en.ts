@@ -41,7 +41,7 @@ export const enNavbar = navbar([
     children: [
       {
         text: "Tools",
-        icon: "tools-hardware",
+        icon: "tools",
         link: "#"
       },
      ],
