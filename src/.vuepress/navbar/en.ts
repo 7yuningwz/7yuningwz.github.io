@@ -2,6 +2,7 @@ import { navbar } from "vuepress-theme-hope";
 
 export const enNavbar = navbar([
   "/",
+  
   {
    text: "Blogs",
    icon: "blogger",
@@ -46,5 +47,6 @@ export const enNavbar = navbar([
       },
      ],
    },
+   
   
 ]);
