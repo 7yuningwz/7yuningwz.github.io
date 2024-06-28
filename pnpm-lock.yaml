@@ -24,8 +24,8 @@ importers:
         specifier: ^1.5.11
         version: 1.5.11
       vidstack:
-        specifier: ^0.6.15
-        version: 0.6.15
+        specifier: ^1.11.24
+        version: 1.11.24
       vue:
         specifier: ^3.4.30
         version: 3.4.30
@@ -34,13 +34,13 @@ importers:
         version: 2.0.0-rc.14(@vuepress/bundler-vite@2.0.0-rc.14(@types/node@20.14.9)(sass@1.77.6)(yaml@2.4.5))(vue@3.4.30)
       vuepress-plugin-components:
         specifier: 2.0.0-rc.50
-        version: 2.0.0-rc.50(dashjs@4.7.4)(hls.js@1.5.11)(vidstack@0.6.15)(vuepress@2.0.0-rc.14(@vuepress/bundler-vite@2.0.0-rc.14(@types/node@20.14.9)(sass@1.77.6)(yaml@2.4.5))(vue@3.4.30))
+        version: 2.0.0-rc.50(dashjs@4.7.4)(hls.js@1.5.11)(vidstack@1.11.24)(vuepress@2.0.0-rc.14(@vuepress/bundler-vite@2.0.0-rc.14(@types/node@20.14.9)(sass@1.77.6)(yaml@2.4.5))(vue@3.4.30))
       vuepress-plugin-md-enhance:
         specifier: 2.0.0-rc.50
         version: 2.0.0-rc.50(markdown-it@14.1.0)(vuepress@2.0.0-rc.14(@vuepress/bundler-vite@2.0.0-rc.14(@types/node@20.14.9)(sass@1.77.6)(yaml@2.4.5))(vue@3.4.30))
       vuepress-theme-hope:
         specifier: 2.0.0-rc.50
-        version: 2.0.0-rc.50(@vuepress/plugin-search@2.0.0-rc.37(vuepress@2.0.0-rc.14(@vuepress/bundler-vite@2.0.0-rc.14(@types/node@20.14.9)(sass@1.77.6)(yaml@2.4.5))(vue@3.4.30)))(@waline/client@3.2.6)(dashjs@4.7.4)(hls.js@1.5.11)(markdown-it@14.1.0)(vidstack@0.6.15)(vuepress@2.0.0-rc.14(@vuepress/bundler-vite@2.0.0-rc.14(@types/node@20.14.9)(sass@1.77.6)(yaml@2.4.5))(vue@3.4.30))
+        version: 2.0.0-rc.50(@vuepress/plugin-search@2.0.0-rc.37(vuepress@2.0.0-rc.14(@vuepress/bundler-vite@2.0.0-rc.14(@types/node@20.14.9)(sass@1.77.6)(yaml@2.4.5))(vue@3.4.30)))(@waline/client@3.2.6)(dashjs@4.7.4)(hls.js@1.5.11)(markdown-it@14.1.0)(vidstack@1.11.24)(vuepress@2.0.0-rc.14(@vuepress/bundler-vite@2.0.0-rc.14(@types/node@20.14.9)(sass@1.77.6)(yaml@2.4.5))(vue@3.4.30))
 
 packages:
 
@@ -207,9 +207,6 @@ packages:
 
   '@lit/reactive-element@2.0.4':
     resolution: {integrity: sha512-GFn91inaUa2oHLak8awSIigYz0cU0Payr1rcFsrkf5OJ5eSPxElyZfKh0f2p9FsTiZWXQdWGJeXZICEfXXYSXQ==}
-
-  '@maverick-js/signals@5.11.5':
-    resolution: {integrity: sha512-/GO94awrwN9ROYZDMTeByordjvbhcm3CMvB/2aL/sEUy9Va8nM/2GmNgOOe+rrooTGnz8/DzO73xomuBRrnYWw==}
 
   '@mdit-vue/plugin-component@2.1.3':
     resolution: {integrity: sha512-9AG17beCgpEw/4ldo/M6Y/1Rh4E1bqMmr/rCkWKmCAxy9tJz3lzY7HQJanyHMJufwsb3WL5Lp7Om/aPcQTZ9SA==}
@@ -807,6 +804,11 @@ packages:
     resolution: {integrity: sha512-aOM7duYqkmERiP/ua9LiQ0Juwt3779lYM5j3QYgho+ZrL3QV1C7bH4SFT48gDQ8hv+Ca6pWBAvd/OQWuNiV/JQ==}
     engines: {node: '>=18'}
 
+  acorn@8.12.0:
+    resolution: {integrity: sha512-RTvkC4w+KNXrM39/lWCUaG0IbRkWdCv7W/IOW9oU6SawyxulvkQy5HQPVTKxEjczcUvapcrw3cFx/60VN/NRNw==}
+    engines: {node: '>=0.4.0'}
+    hasBin: true
+
   ansi-regex@5.0.1:
     resolution: {integrity: sha512-quJQXlTSUGL2LH9SUXo8VwsY4soanhgo6LNSm84E1LBcE8s3O0wpdiRzyR9z/ZZJMlMWv37qOOb9pdJlMUEKFQ==}
     engines: {node: '>=8'}
@@ -1250,15 +1252,11 @@ packages:
     engines: {node: '>= 18'}
     hasBin: true
 
-  maverick.js@0.37.0:
-    resolution: {integrity: sha512-1Dk/9rienLiihlktVvH04ADC2UJTMflC1fOMVQCCaQAaz7hgzDI5i0p/arFbDM52hFFiIcq4RdXtYz47SgsLgw==}
-    engines: {node: '>=16'}
-
   mdurl@2.0.0:
     resolution: {integrity: sha512-Lf+9+2r+Tdp5wXDXC4PcIBjTDtq4UKjCPMQhKIuzpJNW0b96kVqSwW0bT7FhRSfmAiFYgP+SCRvdrDozfh0U5w==}
 
-  media-captions@0.0.18:
-    resolution: {integrity: sha512-JW18P6FuHdyLSGwC4TQ0kF3WdNj/+wMw2cKOb8BnmY6vSJGtnwJ+vkYj+IjHOV34j3XMc70HDeB/QYKR7E7fuQ==}
+  media-captions@1.0.3:
+    resolution: {integrity: sha512-y2Qi5rqjwgH97zoko1vzu5Q6nnS0KzEQSvd4NOjnFym9JqnFb5VSsUg21RNb5cQ/nhCFJ0wz/XK+2uMwFCr6TQ==}
     engines: {node: '>=16'}
 
   merge2@1.4.1:
@@ -1532,10 +1530,6 @@ packages:
     resolution: {integrity: sha512-65P7iz6X5yEr1cwcgvQxbbIw7Uk3gOy5dIdtZ4rDveLqhrdJP+Li/Hx6tyK0NEb+2GCyneCMJiGqrADCSNk8sQ==}
     engines: {node: '>=8.0'}
 
-  type-fest@3.13.1:
-    resolution: {integrity: sha512-tLq3bSNx+xSpwvAJnzrK0Ep5CLNWjvFTOp71URMaAEWBfRb9nnJiBoUe0tF8bI4ZFO3omgBR6NvnbzVUT3Ly4g==}
-    engines: {node: '>=14.16'}
-
   ua-parser-js@1.0.38:
     resolution: {integrity: sha512-Aq5ppTOfvrCMgAPneW1HfWj66Xi7XL+/mIy996R1/CLS/rcyJQm6QZdsKrUeivDFQ+Oc9Wyuwor8Ze8peEoUoQ==}
 
@@ -1553,6 +1547,10 @@ packages:
     resolution: {integrity: sha512-gptHNQghINnc/vTGIk0SOFGFNXw7JVrlRUtConJRlvaw6DuX0wO5Jeko9sWrMBhh+PsYAZ7oXAiOnf/UKogyiw==}
     engines: {node: '>= 10.0.0'}
 
+  unplugin@1.10.1:
+    resolution: {integrity: sha512-d6Mhq8RJeGA8UfKCu54Um4lFA0eSaRa3XxdAJg8tIdxbu1ubW0hBCZUL7yI2uGyYCRndvbK8FLHzqy2XKfeMsg==}
+    engines: {node: '>=14.0.0'}
+
   upath@2.0.1:
     resolution: {integrity: sha512-1uEe95xksV1O0CYKXo8vQvN1JEbtJp7lb7C5U9HMsIp6IVwntkH/oNUzyVNQSd4S1sYk2FpSSW44FqMc8qee5w==}
     engines: {node: '>=4'}
@@ -1563,9 +1561,9 @@ packages:
     peerDependencies:
       browserslist: '>= 4.21.0'
 
-  vidstack@0.6.15:
-    resolution: {integrity: sha512-pI2aixBuOpu/LSnRgNJ40tU/KFW+x1X+O2bW1hz946ZZShDM5oqRXF9pavDOuckHAHPgUN9HYUr9vUNTBUPF1Q==}
-    engines: {node: '>=16'}
+  vidstack@1.11.24:
+    resolution: {integrity: sha512-RTd8hj3FD3ScIizm/JNnWKCaMwt9JVTU8Dgq+aOhzptyA6S+rGjXKbpQatp4GL714SwTjHjDVawCtbUrq4S10w==}
+    engines: {node: '>=18'}
 
   vite@5.3.2:
     resolution: {integrity: sha512-6lA7OBHBlXUxiJxbO5aAY2fsHHzDr1q7DvXYnyZycRs2Dz+dXBWuhpWHvmljTRTpQC2uvGmUFFkSHF2vGo90MA==}
@@ -1754,6 +1752,13 @@ packages:
     resolution: {integrity: sha512-fj82XgrJkqP0a7kcG6U591YT6E0GFq9zdUrqbijbkE9l8aHhOpOogQwk5jaoTaWVqQsBSNFRIc6QWRkHBfHNsA==}
     engines: {node: '>=16.0.0'}
 
+  webpack-sources@3.2.3:
+    resolution: {integrity: sha512-/DyMEOrDgLKKIG0fmvtz+4dUX/3Ghozwgm6iPp8KRhvn+eQf9+Q7GWxVNMk3+uCPWfdXYC4ExGBckIXdFEfH1w==}
+    engines: {node: '>=10.13.0'}
+
+  webpack-virtual-modules@0.6.2:
+    resolution: {integrity: sha512-66/V2i5hQanC51vBQKPH4aI8NMAcBW59FVBs+rC7eGHupMyfn34q7rZIE+ETlJ+XTevqfUhVVBgSUNSW2flEUQ==}
+
   which-module@2.0.1:
     resolution: {integrity: sha512-iBdZ57RDvnOR9AGBhML2vFZf7h8vmBjhoaZqODJBFWHVtKkDmKuHai3cx5PgVMrX5YDNp27AofYbAwctSS+vhQ==}
 
@@ -1878,8 +1883,6 @@ snapshots:
   '@lit/reactive-element@2.0.4':
     dependencies:
       '@lit-labs/ssr-dom-shim': 1.2.0
-
-  '@maverick-js/signals@5.11.5': {}
 
   '@mdit-vue/plugin-component@2.1.3':
     dependencies:
@@ -2589,6 +2592,8 @@ snapshots:
       - '@vue/composition-api'
       - typescript
 
+  acorn@8.12.0: {}
+
   ansi-regex@5.0.1: {}
 
   ansi-regex@6.0.1: {}
@@ -3060,14 +3065,9 @@ snapshots:
 
   marked@12.0.2: {}
 
-  maverick.js@0.37.0:
-    dependencies:
-      '@maverick-js/signals': 5.11.5
-      type-fest: 3.13.1
-
   mdurl@2.0.0: {}
 
-  media-captions@0.0.18: {}
+  media-captions@1.0.3: {}
 
   merge2@1.4.1: {}
 
@@ -3304,8 +3304,6 @@ snapshots:
     dependencies:
       is-number: 7.0.0
 
-  type-fest@3.13.1: {}
-
   ua-parser-js@1.0.38: {}
 
   uc.micro@2.1.0: {}
@@ -3316,6 +3314,13 @@ snapshots:
 
   universalify@2.0.1: {}
 
+  unplugin@1.10.1:
+    dependencies:
+      acorn: 8.12.0
+      chokidar: 3.6.0
+      webpack-sources: 3.2.3
+      webpack-virtual-modules: 0.6.2
+
   upath@2.0.1: {}
 
   update-browserslist-db@1.0.16(browserslist@4.23.1):
@@ -3324,11 +3329,10 @@ snapshots:
       escalade: 3.1.2
       picocolors: 1.0.1
 
-  vidstack@0.6.15:
+  vidstack@1.11.24:
     dependencies:
-      maverick.js: 0.37.0
-      media-captions: 0.0.18
-      type-fest: 3.13.1
+      media-captions: 1.0.3
+      unplugin: 1.10.1
 
   vite@5.3.2(@types/node@20.14.9)(sass@1.77.6):
     dependencies:
@@ -3357,7 +3361,7 @@ snapshots:
       '@vue/server-renderer': 3.4.30(vue@3.4.30)
       '@vue/shared': 3.4.30
 
-  vuepress-plugin-components@2.0.0-rc.50(dashjs@4.7.4)(hls.js@1.5.11)(vidstack@0.6.15)(vuepress@2.0.0-rc.14(@vuepress/bundler-vite@2.0.0-rc.14(@types/node@20.14.9)(sass@1.77.6)(yaml@2.4.5))(vue@3.4.30)):
+  vuepress-plugin-components@2.0.0-rc.50(dashjs@4.7.4)(hls.js@1.5.11)(vidstack@1.11.24)(vuepress@2.0.0-rc.14(@vuepress/bundler-vite@2.0.0-rc.14(@types/node@20.14.9)(sass@1.77.6)(yaml@2.4.5))(vue@3.4.30)):
     dependencies:
       '@stackblitz/sdk': 1.10.0
       '@vuepress/helper': 2.0.0-rc.37(vuepress@2.0.0-rc.14(@vuepress/bundler-vite@2.0.0-rc.14(@types/node@20.14.9)(sass@1.77.6)(yaml@2.4.5))(vue@3.4.30))
@@ -3372,7 +3376,7 @@ snapshots:
     optionalDependencies:
       dashjs: 4.7.4
       hls.js: 1.5.11
-      vidstack: 0.6.15
+      vidstack: 1.11.24
     transitivePeerDependencies:
       - '@vue/composition-api'
       - typescript
@@ -3432,7 +3436,7 @@ snapshots:
       - '@vue/composition-api'
       - typescript
 
-  vuepress-theme-hope@2.0.0-rc.50(@vuepress/plugin-search@2.0.0-rc.37(vuepress@2.0.0-rc.14(@vuepress/bundler-vite@2.0.0-rc.14(@types/node@20.14.9)(sass@1.77.6)(yaml@2.4.5))(vue@3.4.30)))(@waline/client@3.2.6)(dashjs@4.7.4)(hls.js@1.5.11)(markdown-it@14.1.0)(vidstack@0.6.15)(vuepress@2.0.0-rc.14(@vuepress/bundler-vite@2.0.0-rc.14(@types/node@20.14.9)(sass@1.77.6)(yaml@2.4.5))(vue@3.4.30)):
+  vuepress-theme-hope@2.0.0-rc.50(@vuepress/plugin-search@2.0.0-rc.37(vuepress@2.0.0-rc.14(@vuepress/bundler-vite@2.0.0-rc.14(@types/node@20.14.9)(sass@1.77.6)(yaml@2.4.5))(vue@3.4.30)))(@waline/client@3.2.6)(dashjs@4.7.4)(hls.js@1.5.11)(markdown-it@14.1.0)(vidstack@1.11.24)(vuepress@2.0.0-rc.14(@vuepress/bundler-vite@2.0.0-rc.14(@types/node@20.14.9)(sass@1.77.6)(yaml@2.4.5))(vue@3.4.30)):
     dependencies:
       '@vuepress/helper': 2.0.0-rc.37(vuepress@2.0.0-rc.14(@vuepress/bundler-vite@2.0.0-rc.14(@types/node@20.14.9)(sass@1.77.6)(yaml@2.4.5))(vue@3.4.30))
       '@vuepress/plugin-active-header-links': 2.0.0-rc.37(vuepress@2.0.0-rc.14(@vuepress/bundler-vite@2.0.0-rc.14(@types/node@20.14.9)(sass@1.77.6)(yaml@2.4.5))(vue@3.4.30))
@@ -3463,7 +3467,7 @@ snapshots:
       gray-matter: 4.0.3
       vue: 3.4.30
       vuepress: 2.0.0-rc.14(@vuepress/bundler-vite@2.0.0-rc.14(@types/node@20.14.9)(sass@1.77.6)(yaml@2.4.5))(vue@3.4.30)
-      vuepress-plugin-components: 2.0.0-rc.50(dashjs@4.7.4)(hls.js@1.5.11)(vidstack@0.6.15)(vuepress@2.0.0-rc.14(@vuepress/bundler-vite@2.0.0-rc.14(@types/node@20.14.9)(sass@1.77.6)(yaml@2.4.5))(vue@3.4.30))
+      vuepress-plugin-components: 2.0.0-rc.50(dashjs@4.7.4)(hls.js@1.5.11)(vidstack@1.11.24)(vuepress@2.0.0-rc.14(@vuepress/bundler-vite@2.0.0-rc.14(@types/node@20.14.9)(sass@1.77.6)(yaml@2.4.5))(vue@3.4.30))
       vuepress-plugin-md-enhance: 2.0.0-rc.50(markdown-it@14.1.0)(vuepress@2.0.0-rc.14(@vuepress/bundler-vite@2.0.0-rc.14(@types/node@20.14.9)(sass@1.77.6)(yaml@2.4.5))(vue@3.4.30))
       vuepress-shared: 2.0.0-rc.50(vuepress@2.0.0-rc.14(@vuepress/bundler-vite@2.0.0-rc.14(@types/node@20.14.9)(sass@1.77.6)(yaml@2.4.5))(vue@3.4.30))
     optionalDependencies:
@@ -3511,6 +3515,10 @@ snapshots:
       - typescript
 
   watermark-js-plus@1.5.1: {}
+
+  webpack-sources@3.2.3: {}
+
+  webpack-virtual-modules@0.6.2: {}
 
   which-module@2.0.1: {}
 
