@@ -4,26 +4,26 @@ export const enNavbar = navbar([
   "/",
   {
    text: "Blogs",
-   icon: "",
+   icon: "blogger",
    children: [
     {
       text: "Memories",
-      icon: "",
+      icon: "jiyi",
       link: "#"
     },
    ],
   },
    {
     text: "Communities",
-    icon: "",
+    icon: "shequ",
     children: [
       {
         text: "Friends",
-        icon: "",
+        icon: "friends",
         children: [
           {
             text: "Comments",
-            icon: "",
+            icon: "comments",
             link: "#"
           },
          ]
@@ -32,16 +32,16 @@ export const enNavbar = navbar([
    },
    {
     text: "Products",
-    icon: "",
+    icon: "product_s",
     link:"#"
    },
    {
     text: "Help",
-    icon: "",
+    icon: "help",
     children: [
       {
         text: "Tools",
-        icon: "",
+        icon: "tools-hardware",
         link: "#"
       },
      ],
