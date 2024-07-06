@@ -113,6 +113,7 @@ export default hopeTheme({
     config: {
       "/demo/encrypt.html": ["1234"],
       "/zh/demo/encrypt.html": ["1234"],
+      "/config/page.html": ["1234","5678"]
     },
   },
 
@@ -178,7 +179,7 @@ export default hopeTheme({
       echarts: false,
       mermaid: false,
       sup: true,
-      katex: false,
+      katex: true,
       mathjax: false,
       vuePlayground: false,
       tasklist: true,
